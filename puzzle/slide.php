@@ -2,8 +2,8 @@
 
 include __DIR__ . '/v.php'; // debug print
 
-define ('GAME_MEMORY_LIMIT', 2000*1000*1000);
-define ('GAME_TIME_LIMIT', 3);
+define ('GAME_MEMORY_LIMIT', 6000*1000*1000);
+define ('GAME_TIME_LIMIT', 15);
 define ('GAME_INPUT_FILE',  'answer.txt');
 define ('GAME_OUTPUT_FILE', 'output.txt');
 
